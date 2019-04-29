@@ -1,0 +1,4 @@
+dn:ou=usuarios,dc=quesitos,dc=com
+objectClass:organizationalUnit
+objectClass:top
+ou:usuarios

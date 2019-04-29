@@ -1,4 +1,5 @@
 #!/bin/bash
+#user cn=admin,dc=quesitos,dc=com password pdc135
 apt install slapd
 apt install ldap-utils
 nano rama.ldif

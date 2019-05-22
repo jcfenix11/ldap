@@ -1,4 +1,4 @@
-n:cn=config
+dn:cn=config
 changetype:modify
 
 dn:olcDatabase={0}config,cn=config

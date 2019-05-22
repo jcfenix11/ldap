@@ -1,0 +1,12 @@
+n:cn=config
+changetype:modify
+
+dn:olcDatabase={0}config,cn=config
+changetype:modify
+add:olcRootPW
+olcRootPw:{MD5}rOMv3+NbPnOWfYV34E1vaA==
+
+dn:olcDatabase={0}config,cn=config
+changetype:modify
+add:olcAccess
+olcAccess:{1}to * by dn="cn=admin,cn=config" write
